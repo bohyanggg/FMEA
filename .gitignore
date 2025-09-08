@@ -1,0 +1,41 @@
+//
+//  .gitignore
+//  FMEA
+//
+//  Created by Hsieh Boh Yang on 8/9/25.
+//
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcscmblueprint
+*.xcuserstate
+
+# SwiftPM
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+*.ds_store
+.DS_Store
+
+# Secrets (adjust to your project)
+*.p12
+*.mobileprovision
+*.xcconfig.local
+Secrets.plist
